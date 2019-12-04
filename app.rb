@@ -1,10 +1,9 @@
 require 'sinatra'
 get '/' do
-    erb:saludo
+    erb:home
 
 
 end
-post '/saludar' do
-    @nombre_persona=params[:nombre]
-    erb:saludo_nombre
+get '/jugar' do
+    erb:jugar
 end
