@@ -1,4 +1,5 @@
 require 'sinatra'
+require './lib/auto'
 
 get '/' do
     erb:home
@@ -7,5 +8,10 @@ get '/' do
 end
 get '/jugar' do
     erb:jugar
+end
+get '/resultado' do
+    auto1=Auto.new
+    
+    erb:resultado
 end
 
