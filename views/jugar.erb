@@ -17,28 +17,44 @@
     </div>
     <div class="container">
       <h2>Ingresar dimensiones del terreno</h2>
-      <label>Filas</label>
-      <input class="form-control" type="number" id='filas' name='filas'>
-      <label>Columnas</label>
-      <input class="form-control" type="number" id='cols' name='cols'>
+      <label>Cantidad de filas</label>
+      <br>
+      <input type="number" id='filas' name='filas'>
+      <br>
+      <label>Cantidad de columnas</label>
+      <br>
+      <input type="number" id='cols' name='cols'>
+      <br>
       <h2>Ingresar posicion inicial</h2>
       <label>Posicio X</label>
-      <input class ="form-control" type= "number" id ='posicionX' name ='posicionX'>
+      <br>
+      <input type= "number" id ='posicionX' name ='posicionX'>
+      <br>
       <label>Posicion Y</label>
-      <input class= "form-control" type "number" id ='posicionY' name ='posicionY'>
+      <br>
+      <input type "number" id ='posicionY' name ='posicionY'>
+      <br>
       <label>Sentido</label>
-      <input  class ="form-control" type= "text" id ='sentido' name ='sentido'>
-      <h2>Ingresar movimientos</h2>
-      <form class="form-group" method="GET" action="/jugada">
-          <select class="form-control"  id="direccion" name="direccion">
-            <option value="Izquierda" selected> Izquierda </option>
-            <option value="Derecha"> Derecha </option>
-            <option value="Avanzar"> Avanzar </option>
-           
+      <br>
+          <select id ='sentido' name ='sentido'>
+            <option value="N">Norte</option>
+            <option value="S">Sur</option>
+            <option value="E">Este</option>
+            <option value="O">Oeste</option>
           </select>
-          <input class="btn btn-block btn-primary" type="submit" id='Jugada' name='Jugada' value ='Jugada' />
+      <br>
+      <h2>Ingresar movimientos</h2>
+          Izquierda:I
+          <br>
+          Derecha:D
+          <br>
+          Avanzar:A
+          <br>
 
-      </form>
+      <p><input class= "form-control" type="text" name ="movimientos" placeholder ="Escribe tus movimientos : AIDDAII"></p>
+      
+      <input class="btn btn-block btn-primary" type="submit" id='Simular' name='Simular' value ='Simular' />
+
     </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

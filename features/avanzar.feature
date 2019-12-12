@@ -8,7 +8,8 @@ Scenario:
 Scenario:
     Given visito la pagina jugar
     Then veo una etiqueta "Ingresar movimientos"
-Scenario:
-    Given visito la pagina jugar
-    When presiono el boton "Avanzar"
-    Then deberia ver "Ingresar datos"
+#Scenario:
+   
+   # Given visito la pagina jugar
+   # When presiono el boton "Avanzar"
+   # Then deberia ver "Ingresar datos"
