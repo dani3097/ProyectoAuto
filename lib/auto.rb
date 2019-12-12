@@ -25,7 +25,7 @@ class Auto
         @movimientos
     end 
 
-    def mover
+    def mover()
         for i in (0.. @movimientos.length) 
             if @movimientos[i]=='I'
                 if @sentidoInicial=='N'
